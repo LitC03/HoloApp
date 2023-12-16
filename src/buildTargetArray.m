@@ -16,7 +16,7 @@ for b = 1:N_BEAM
 %     dirName = strcat(...
 %         'C:\Users\glenn\repositories\holoApp\img\tgt\SLMtarget_');
 
-    dirName = strcat('..\img\tgt\SLMtarget_');
+    dirName = '..\img\tgt\SLMtarget_';
     if config.do_circParts
         % targetFile = strcat(dirName, circTitles(b));
         targetFile = [dirName,'circ_parts', num2str(b),'.png'];

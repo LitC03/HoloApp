@@ -13,19 +13,14 @@ targRat = 1;
 
 % Loop through beams and assign target images
 for b = 1:N_BEAM
-%     dirName = strcat(...
-%         'C:\Users\glenn\repositories\holoApp\img\tgt\SLMtarget_');
 
     dirName = '..\img\tgt\SLMtarget_';
     if config.do_circParts
-        % targetFile = strcat(dirName, circTitles(b));
         targetFile = [dirName,'circ_parts', num2str(b),'.png'];
-        target = imread(targetFile);
     else
         targetFile = [dirName,'test.png'];
-        target = imread(targetFile);
     end
-
+    target = imread(targetFile);
     target = double(target);
  
     Xover = size(target,2) / camDim(2);

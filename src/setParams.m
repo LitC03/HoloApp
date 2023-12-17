@@ -4,7 +4,7 @@ function config = setParams(config, nCol, nRow, focal_mm, beamDiam, gaussSigma)
 % Setup some geometry
 beamDiam = beamDiam * 1e-3;
 slmDim = [1152 1920]; % No of pixels in SLM
-camDim = [2054 2456]; % No of pixels in Camera Q: What camera??
+camDim = [2054 2456]; % No of pixels in Camera. Q: What camera??
 camPix = 3.45e-6; % Distance between centres of camera pixels (pitch)
 slmPix = 9.2e-6; % Distance between centres of SLM pixels 
 lambda = 1.064e-6; % Wavelength of light

@@ -25,7 +25,7 @@ mapDim = round([mapDiam mapDiam]);
 apRad = round(slmDim(1)*beamDiam/slmDiam/2);
 
 
-mapRad = round(mapDiam/2); %Map radius
+mapRad = round(mapDiam/2); % Map radius
 apPaddingY = ceil(mapRad-slmDim(1)/2); % size difference between slm and the map
 apPaddingX = ceil(mapRad-slmDim(2)/2);
 if apPaddingX < 0

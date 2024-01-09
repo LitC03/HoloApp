@@ -1,6 +1,8 @@
 % Generates an SLM hologram
 
-clear
+% clear
+function config = holoAppBackend
+
 config = genConfig;
 
 do_circParts = 0;
@@ -65,7 +67,7 @@ config.startingPosY = startingPosY;
 config.goalPosX = goalPosX;
 config.goalPosY = goalPosY;
 
-holoApp;
+% holoApp;
     
 
 

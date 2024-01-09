@@ -15,7 +15,8 @@ colIdx = [1 0];
 beamIdx = [[0,1]; [1,1]; [1,0]; [0,0]];% beam order on SLM: 4 1
                                        %                    3 2
 
-% Loop through each zone and determine pixel assignments                                      
+% Loop through each zone and determine pixel assignments    
+% (get the positions and centers of each zone of the SLM, measured in SLM pixels)
 for b = 1:4
     zone = struct;
     idx = beamIdx(b,:);

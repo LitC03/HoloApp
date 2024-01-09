@@ -2,10 +2,10 @@ function [totResult, totInten, totPhase, res] = loopBeams(SLM, beamShift, beamGa
     fftArr, sceneGeom, totInten, totPhase, targetPadArr, config, ...
     axes_3, axes_4, axes_5, axes_6)
     
-    totInten = totInten * 0.0;
-    totPhase = totPhase * 0.0;
-    N_BEAMS = config.nCol * config.nRow;
-    mapDim = config.mapDim;
+    totInten = totInten * 0.0; % Get zeros matrix with the dimensions of the SLM (I assume)
+    totPhase = totPhase * 0.0; % Get zeros matrix for the phase delay
+    N_BEAMS = config.nCol * config.nRow; % No of pixels
+    mapDim = config.mapDim; 
     camDim = config.camDim;
     slmEdges = vertcat(SLM.zones.X);
     slmEdges = [1 slmEdges(:,2)'];

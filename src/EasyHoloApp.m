@@ -4,7 +4,7 @@ clear
 
 %% Get initial parameters
 dims = [1152,1920]; % SLM dimensions
-beam_diam = 11.5e-3; % Beam diameter
+beam_diam = 50.5e-3; % Beam diameter
 slmPix = 9.2e-6; % SLM pitch
 n_iter = 10; % No of iterations for GS routine
 out_name = 'phase';
@@ -32,7 +32,7 @@ if ~all(dim_img>dims)
     if log_arr(1)
         padY = dims(1)-dim_img(1);
     else
-        disp('Image will be cut in y axis');
+        disp('Image will be cut in y axis'); % Not done yet
     end
 
     if log_arr(2)

@@ -8,8 +8,8 @@ pitch = 9.2e-6;
 beam_diam = 20e-3;
 GS_reps = 30;
 
-step = 10;
-reps = 1;
+step = 50;
+reps = 10;
 
 for a=step:step:step*reps
     win = centerCropWindow2d(dims,dims - a);
@@ -27,5 +27,12 @@ for a=step:step:step*reps
 
     padded_phase = padarray(wrapped_phase,[a a]./2,0,'both');
     slm_phase = pad_to_SLM(padded_phase,[1152 1920]);
-    imagesc(slm)
+
+    slm_phase = slm_phase.*255./(2*pi);
+
+    uint8_phase = uint8(slm_phase);
+
+    imwrite(uint8_phase,['..\img\out\2_circles_75_hor_separation_cut_',num2str(a),'.bmp'])
+
+    imagesc(slm_phase)
 end

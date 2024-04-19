@@ -4,10 +4,10 @@ MATLAB App originally developed by Glenn Howe. Commented (and hopefully optimise
 
 The HoloApp is a MATLAB App to interface with the 1920x1152 Spatial Light Modulator (SLM) by MeadowLarks Optics in the following setup:
 
-/other media/SLM_setup.png
+![](/other media/SLM_setup.png)
 
 
-HoloApp allows users to choose and edit the images they can see on the detector by applying the GErchberg-Saxton routine to retrieve the phase delays the SLM needs to apply to them.
+HoloApp allows users to choose and edit the images they can see on the detector by applying the Gerchberg-Saxton routine to retrieve the phase delays the SLM needs to apply to them.
 
 
 To use, open the HoloApp_Lito file.
@@ -17,7 +17,7 @@ To use, open the HoloApp_Lito file.
 
 ### 1. Already have an image that you want to display on the focal plane of your lens
 
-	- Put your image in the img/tgt folder.
+- Put your image in the img/tgt folder.
 
 	- Check that you are connected to the SLM by checking that the 'SLM connected?' lamp is green. If you think you should be connected, check MATLAB's terminal for errors or try opening the app again.
 

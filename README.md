@@ -7,10 +7,10 @@ The HoloApp is a MATLAB App to interface with the 1920x1152 Spatial Light Modula
 ![Optical setup for SLM](/assets/SLM_setup.png)
 
 
-HoloApp allows users to choose and edit the images they can see on the detector by applying the Gerchberg-Saxton routine to retrieve the phase delays the SLM needs to apply to them.
+HoloApp allows users to choose and edit the images they can see on the detector by applying the Gerchberg-Saxton routine to retrieve the necessary phase delays.
 
 
-To use, open the HoloApp_Lito file.
+** To use, open the HoloApp_Lito file in the scr folder. **
 
 
 ## Running the App if you ...
@@ -33,10 +33,11 @@ Your image should be a 1920x1152 .bmp file in order for this to work.
 
 - Put your phase map in the img/out folder.
 
-- On the left, on the 'Step 2+3' tab, choose your image from the
+- On the left, on the 'Step 2+3' tab, choose your image from the listbox titled 'Or add already-generated phase map', you will see a preview of the phase map and its estimate on the two top figures in the centre of the app.
 
 - At the bottom of the tab, in '3. Apply to SLM', select your desired wavelength and press 'Apply to SLM'. You should see your image at the focal plane of your lens!
 
 ### 3. Want to have one or more circles displayed
 
-### 4. 
+### 4. Want a combination of images together
+Use 'Extra: Add multiple pictures tab'

@@ -4,7 +4,7 @@ MATLAB App originally developed by Glenn Howe. Commented (and hopefully optimise
 
 The HoloApp is a MATLAB App to interface with the 1920x1152 Spatial Light Modulator (SLM) by MeadowLarks Optics in the following setup:
 
-![Optical setup for SLM](/assets/78081551/1fbb5194-2c68-4dd9-b0e1-66cf67753f57.png)
+![Optical setup for SLM](/assets/SLM_setup.png)
 
 
 HoloApp allows users to choose and edit the images they can see on the detector by applying the Gerchberg-Saxton routine to retrieve the phase delays the SLM needs to apply to them.

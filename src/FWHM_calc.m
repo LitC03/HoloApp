@@ -6,7 +6,8 @@ function  [FWHM, px_width] = FWHM_calc(path_to_file,varargin)
     close all
 
     if isempty(varargin)
-        cam_pitch=3.45e-6;
+        % cam_pitch=3.45e-6;
+        cam_pitch=2.9e-6;
     else
         cam_pitch=varargin{1};
     end
@@ -49,6 +50,7 @@ function  [FWHM, px_width] = FWHM_calc(path_to_file,varargin)
 
         % Separate array into 2
         idx_max=find(arr==max_num);
+        idx_max=idx_max(round(length(idx_max)/2));
         arr1=arr(1:idx_max);
         arr2=arr(idx_max:end);
 

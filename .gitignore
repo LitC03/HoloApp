@@ -1,0 +1,6 @@
+# ignore all .avi files
+*.avi
+
+img/vids/
+
+src/sims/glenn4_sim.mat

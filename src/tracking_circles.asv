@@ -1,0 +1,15 @@
+clear
+close all
+
+pos1=[855,765,635,505,444,324,262,136];
+idx1=[304,371,668,926,1183,1457,1721,2029];
+pos2=[1752,1695,1565,1491,1361,1232,1102,996,874];
+idx2=[930,1188,1472,1723,2030,2281,2488,2759,2916];
+
+total_travelled_px1 = pos1(1)-pos1(end);
+total_travelled_px2 = pos2(1)-pos2(end);
+
+total_travelled_real1 = total_travelled_px1*2e-3;
+total_travelled_real2 = total_travelled_px2*2e-3;
+
+travel_max_pxs = (idx1(3)-idx1(1))+();

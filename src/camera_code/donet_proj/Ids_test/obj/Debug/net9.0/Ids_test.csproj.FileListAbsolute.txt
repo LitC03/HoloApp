@@ -1,0 +1,15 @@
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\bin\Debug\net9.0\Ids_test.exe
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\bin\Debug\net9.0\Ids_test.deps.json
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\bin\Debug\net9.0\Ids_test.runtimeconfig.json
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\bin\Debug\net9.0\Ids_test.dll
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\bin\Debug\net9.0\Ids_test.pdb
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.AssemblyInfoInputs.cache
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.AssemblyInfo.cs
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.csproj.CoreCompileInputs.cache
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.sourcelink.json
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.dll
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\refint\Ids_test.dll
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.pdb
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\Ids_test.genruntimeconfig.cache
+C:\Users\lito\OneDrive - Imperial College London\Documents 1\Yo\Education\PhD\HoloApp\src\connect_to_cam\donet_proj\Ids_test\obj\Debug\net9.0\ref\Ids_test.dll

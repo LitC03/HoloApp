@@ -16,10 +16,11 @@ function  [FWHM, px_width] = FWHM_calc(path_to_file,varargin)
     % info = readmatrix('C:\Users\lito\Videos\Exp Feb 2024\profile_left_circle.csv');
     info = readmatrix(path_to_file);
     profile = info(:,2);
+    % profile = normalize(info(:,2),"range");
 
     %% Plot profile
     f=figure(1);
-    f.Position = [1954.333333333333,179,432.6666666666667,266];
+    % f.Position = [1954.333333333333,179,432.6666666666667,266];
     plot(profile,'LineWidth',1)
 
     %% Get the indexes of the half maximum points and their values
